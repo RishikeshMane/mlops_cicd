@@ -9,7 +9,7 @@
         "logDriver": "awslogs",
         "secretOptions": null,
         "options": {
-          "awslogs-group": "/ecs/task_def01",
+          "awslogs-group": "/ecs/defina01",
           "awslogs-region": "ap-south-1",
           "awslogs-stream-prefix": "ecs"
         }
@@ -54,7 +54,7 @@
       "dockerLabels": null,
       "systemControls": null,
       "privileged": null,
-      "name": "cont_01"
+      "name": "cont_02"
     }
   ],
   "placementConstraints": [],
@@ -64,8 +64,8 @@
     "EC2",
     "FARGATE"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:ap-south-1:455794406210:task-definition/task_def01:1",
-  "family": "task_def01",
+  "taskDefinitionArn": "arn:aws:ecs:ap-south-1:455794406210:task-definition/defina01:1",
+  "family": "defina01",
   "requiresAttributes": [
     {
       "targetId": null,
