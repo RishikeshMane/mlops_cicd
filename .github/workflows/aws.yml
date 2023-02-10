@@ -58,7 +58,7 @@ jobs:
       with:
         role-to-assume: arn:aws:iam::455794406210:role/code_deploy_role
         role-session-name: code_deploy_role
-        aws-region: ${{ env.AWS_REGION }} In Step Tag
+        aws-region: ${{ env.AWS_REGION }} 
 
     - name: Login to Amazon ECR
       id: login-ecr
