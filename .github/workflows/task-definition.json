@@ -1,6 +1,6 @@
 {
   "ipcMode": null,
-  "executionRoleArn": "arn:aws:iam::455794406210:role/ecsTaskExecutionRole",
+  "executionRoleArn": "arn:aws:iam::455794406210:role/Group01",
   "containerDefinitions": [
     {
       "dnsSearchDomains": null,
@@ -9,7 +9,7 @@
         "logDriver": "awslogs",
         "secretOptions": null,
         "options": {
-          "awslogs-group": "/ecs/new_def",
+          "awslogs-group": "/ecs/task_def01",
           "awslogs-region": "ap-south-1",
           "awslogs-stream-prefix": "ecs"
         }
@@ -54,18 +54,18 @@
       "dockerLabels": null,
       "systemControls": null,
       "privileged": null,
-      "name": "new_cont"
+      "name": "cont_01"
     }
   ],
   "placementConstraints": [],
   "memory": "512",
-  "taskRoleArn": "arn:aws:iam::455794406210:role/ecs_fullaccess",
+  "taskRoleArn": "arn:aws:iam::455794406210:role/Group01",
   "compatibilities": [
     "EC2",
     "FARGATE"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:ap-south-1:455794406210:task-definition/new_def:1",
-  "family": "new_def",
+  "taskDefinitionArn": "arn:aws:ecs:ap-south-1:455794406210:task-definition/task_def01:1",
+  "family": "task_def01",
   "requiresAttributes": [
     {
       "targetId": null,
